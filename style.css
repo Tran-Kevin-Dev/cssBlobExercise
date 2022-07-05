@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* General */
+
 h1 {
     margin-bottom: 4rem;
     color: #272727;
@@ -12,6 +14,30 @@ h1 {
 
 p {
     color: #272727;
+}
+
+.marge40 {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #272727;
+}
+
+nav {
+    padding: 0 0 1% 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* General end */
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
 }
 
 #titleText {
@@ -29,38 +55,33 @@ p {
     justify-self: center;
 }
 
-
-
 .mainBar {
+    position: relative;
     display: flex;
     width: 100%;
     height: 100%;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     padding: 5%;
-    background-color: #FFCC70;
-}
-
-.mainBar img {
-    width: 30%;
-    border-radius: 3rem;
 }
 
 .leftHeader {
-    width: 45%;
-    /* width: 900px; */
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 2%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: purple;
 }
 
 .rightHeader {
-    width: 45%;
-    /* width: 500px; */
+    width: 80%;
     display: flex;
     justify-content: center;
+}
+
+.rightHeader img {
+    width: 60%;
+    border-radius: 40%;
 }
 
 .headerBio {
@@ -84,9 +105,7 @@ p {
 
 .bioPosition p {
     margin-top: 40px;
-    width: 90%;
 }
-
 
 .foreground {
     display: flex;
@@ -95,17 +114,20 @@ p {
     justify-content: center;
     width: 100%;
     z-index: 1;
-    /* background-color: #FFCC70; */
 }
 
 /* Follow me on section */
 
+.follow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Failed bottom header */
 .bottomHeader {
-    /* padding-left: 5%; */
     display: flex;
     flex-direction: row;
     width: 45%;
-    /* background-color: green; */
 }
 
 .linkText {
@@ -121,78 +143,46 @@ p {
     justify-content: center;
     width: 15%;
     border-radius: 50%;
-    background-color: #AD92E8;
+    background-color: #f3f3f3;
     padding: 20px;
-}
-
-.linkIcon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 .linkIcon img {
     width: 100%;
 }
 
-/* Blob work */
+/* Blobs */
 
-.grid-container {
-    display: grid;
+.pedals {
     position: absolute;
-    width: 100%;
-    background-color: rgb(148, 124, 172);
-    z-index: -1;
+    width: 7%;
 }
 
-
-
-
-
-.blob {
-    /* background-image: linear-gradient(to bottom right, red, yellow); */
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-    width: 40px;
-    height: 40px;
-    margin: 2rem;
-    border-radius: 26% 74% 23% 77% / 38% 49% 51% 62%;
-
+#blob1 {
+    top: 2%;
+    left: 1%;
 }
 
-#b1 {
-    width: 70px;
-    height: 40px;
-
+#blob2 {
+    top: 20%;
+    left: 70%;
 }
 
-#b2 {
-    width: 60px;
-    height: 90px;
+#blob3 {
+    top: 50%;
+    left: 96%;
+    overflow: hidden;
 }
 
-#b3 {
-    width: 20px;
-    height: 70px;
+/* BLOB BIJ DE FOTO */
+#blob4 {
+    top: 65%;
+    left: 75%;
+    width: 17%;
 }
 
-#b4 {
-    width: 30px;
-    height: 90px;
-}
-
-#b5 {
-    width: 50px;
-    height: 20px;
-}
-
-#b6 {
-    width: 60px;
-    height: 20px;
-}
-
-#b7 {
-    width: 70px;
-    height: 40px;
+#blob5 {
+    top: 25%;
+    left: 45%;
+    width: 20%;
 }
