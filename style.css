@@ -151,6 +151,10 @@ nav {
     width: 100%;
 }
 
+#githubLogo {
+    margin-right: 50px;
+}
+
 /* Blobs */
 
 .pedals {
@@ -169,9 +173,9 @@ nav {
 }
 
 #blob3 {
-    top: 50%;
-    left: 96%;
-    overflow: hidden;
+    top: 10%;
+    left: 90%;
+    /* overflow: hidden; */
 }
 
 /* BLOB BIJ DE FOTO */
